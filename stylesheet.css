@@ -1,0 +1,74 @@
+/* ------------------------------------
+general 
+----------------------------------*/
+html,body {
+	height: 100%;
+}
+
+body {
+	padding-top: 50px;
+}
+
+
+/*--------------------------------------
+jumbotron css
+---------------------------------------*/
+
+.jumbotron {
+	background: url('images/jumbotron.jpg') no-repeat center center;
+	overflow: hidden;
+	background-size: cover;
+	height: 100%;
+	display: block;
+}
+
+.jumbotron h1 {
+	color: white;
+}
+
+.jumbotron .heading {
+	margin-top: 3%;
+}
+
+.jumbotron #button {
+	text-align: center;
+	margin-top: 15%;
+}
+
+
+/*---------------------------------------
+navbar css
+-----------------------------------------*/
+
+.collapse {
+	display: block;
+}
+
+.navbar .navbar-default .navbar-fixed-top {
+	border-bottom: none;
+}
+
+#logo {
+	max-height: 40px;
+
+}
+
+.navbar-brand {
+	padding-top: 5px
+}
+
+
+/*-------------------------------------------
+upcoming events css
+----------------------------------------------*/
+#upcoming .heading {
+	text-align: center;
+	padding-bottom: 2%;
+	margin-top: -2%;
+}
+
+.caption .btnContainer {
+	text-align: center;
+}
+
+
